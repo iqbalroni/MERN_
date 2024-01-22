@@ -1,0 +1,26 @@
+.main-body{
+    display: flex;
+    height: 100vh;
+    .left{
+        flex:1;
+        background-color: grey;
+
+        .image-page{
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            background-size: cover;
+        }
+    }
+
+    .right{
+        display: flex;
+        justify-content: center;
+        // align-items: center;
+        flex-direction: column;
+        width: 460px;
+        background-color: #fefefe;
+        padding: 30px;
+    }
+}
+

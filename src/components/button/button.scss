@@ -1,0 +1,16 @@
+.button-page{
+    width: 95%;
+    background-color: #99BC85;
+    padding: 12px;
+    color: #303030;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.button-page:hover{
+    background-color: #7E30E1;
+    color: #fefefe;
+}
